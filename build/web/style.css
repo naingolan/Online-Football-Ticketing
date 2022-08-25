@@ -1,0 +1,333 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+/* header */
+body, html{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+header{
+    width: 100%;
+    margin-top: 0;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    border:0;
+    background-color: darkblue;
+
+}
+.head{
+   text-align: center;
+   position:relative;
+   width:20%;
+   top:0;
+   z-index: 1;
+   margin-right:12%;  
+}
+
+.head>h1{
+    
+    font-weight: 900;
+    color:#eaf1ff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+    position:relative;
+    float:right;
+    padding: auto;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align:center;
+    width:60%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding:0;
+    margin:auto;
+    border: 0;
+    padding: 20px;
+    align-items: center;
+}
+ul>li{
+    margin-left: 50px;
+    border: 0;
+    width: auto;
+    padding:10px;
+    text-align: center;
+   
+}
+
+ul>li>a{
+    text-decoration: none;
+    color: #FFFFFF;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition-duration: 1s;
+}
+
+
+/*form */
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: 0 auto;
+    z-index: 1;
+    
+  }
+  .form {
+    position: relative;
+    z-index: 1;
+    background: darkblue;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+  }
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background:#fff;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #008000;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .form button:hover,.form button:active,.form button:focus {
+    background: #008000;
+  }
+  .form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  .form .message a {
+    color: #008000;
+    text-decoration: none;
+  }
+  .form .register-form {
+    display: none;
+  }
+  .container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .container:before, .container:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .container .info {
+    margin: 50px auto;
+    text-align: center;
+  }
+  .container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+  }
+  .container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+  }
+  .container .info span a {
+    color: #000000;
+    text-decoration: none;
+  }
+  .container .info span .fa {
+    color: #EF3B3A;
+  }
+  body{
+    background: #097969; /* fallback for old browsers */
+    background: #097969;
+    background: linear-gradient(90deg, #008000 0%, #097969 80%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
+    padding: 0;  
+    margin: 0;
+    border:0;
+    background-image: url(farm\ back.jpg);
+    background-size: cover;
+    opacity:.9;
+    position:relative;
+  }
+  
+  /*footer */
+  footer{
+      background: darkblue;
+      position:relative;
+  }
+  hr{
+      height: 10px;
+      background:#008000;
+      opacity: 1;
+  }
+  .ending{
+    background:#b3b3b3;
+    height: 0px;
+  }
+  .social{
+    width: 60px;
+    height: 50px;
+    transition-duration: 2s;
+  }
+  #social>ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    margin:auto;
+    background-color: #008000;
+    width: fit-content;
+    height: fit-content;
+    padding:0 auto;
+    margin:20px auto 0;
+    border-radius: 20px;
+  }
+  #social>ul>li>a>img:hover{
+    color:white;
+    width:80px;
+    height:70px;
+  }
+  #social{
+    text-align: center;
+    background:white;
+    margin: 20px auto  0;
+  }
+  #social>h2{
+    margin-top: 30px;
+    color: #008000;
+    padding-top: 20px;
+  }
+  #connecting{
+    margin: auto;
+    height:3px;
+    background-color: #008000;
+    width: 60%;
+  }
+
+  /* main body */
+td{
+  padding:5px 50px;
+  background-color: darkblue;
+  width:fit-content;
+}
+th{
+  background-color: #008000;
+  height:40px;
+}
+
+/*section */
+section, .intro{
+    display: flex;
+    flex-direction: column;
+    padding:0 10%;
+    margin-top:50px ;
+    margin-bottom: 20px;
+}
+
+.insert{
+    margin:40px;
+    width:60%;
+    margin-left:21%;
+}
+.insert>form{
+    display:flex;
+    flex-direction:column;
+    width:80%;
+    text-align:center;
+    padding-left:12%;
+    padding-bottom:30px;
+}
+.insert>form>input{
+    border-radius:5px;
+    height:30px;
+    margin:10px;
+    border:none;
+    padding-left:10px;
+    font-size:16px;
+}
+.tips{
+
+}
+section>*{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    background:#008000;
+    margin:0 70px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.intro{
+    position:relative;
+    top:50%;
+    z-index:-1;
+    height: 150px;
+}
+/*support page */
+.division .support{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  width:auto;
+  background:#03313d;
+  margin:10px 10px 40px 10px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px 5px;
+  border-radius:10px;
+  transition-duration: 2s;
+} 
+.division{
+  background-color: #FFFFFF;
+}
+.support:hover{
+  z-index: 1;
+color:#008000;
+left:50px;
+}
+#supportPage{
+  padding: 5% !important;
+}
+
+
+  
+  
